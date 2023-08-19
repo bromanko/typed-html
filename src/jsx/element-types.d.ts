@@ -14,6 +14,7 @@ declare namespace JSX {
         tabindex?: string;
         title?: string;
         translate?: string | boolean;
+        _?: string;
     }
     interface HtmlAnchorTag extends HtmlTag {
         href?: string;
