@@ -125,6 +125,7 @@ declare namespace JSX {
         ismap?: string;
         width?: string;
         height?: string;
+        loading?: string;
     }
     interface HtmlInputTag extends HtmlTag {
         accept?: string;
